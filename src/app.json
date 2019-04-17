@@ -1,0 +1,89 @@
+{
+  "pages": [
+
+    "pages/home/main",
+    "pages/index/main",
+    "pages/camera/main",
+    "pages/channel/main",
+    "pages/good/main",
+    "pages/me/main"
+
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "爱宠大作战",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#999",
+    "backgroundColor": "#fafafa",
+    "selectedColor": "#333",
+    "borderStyle": "white",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/main",
+        "iconPath": "static/images/tabs/home.png",
+        "selectedIconPath": "static/images/tabs/home-active.png"
+      },
+      {
+        "text": "好物",
+        "pagePath": "pages/good/main",
+        "iconPath": "static/images/tabs/good.png",
+        "selectedIconPath": "static/images/tabs/good-active.png"
+      },
+      {
+        "text": ".",
+        "pagePath": "pages/camera/main",
+        "iconPath": "static/images/tabs/camera.png",
+        "selectedIconPath": "static/images/tabs/camera.png"
+      },
+      {
+        "text": "频道",
+        "pagePath": "pages/channel/main",
+        "iconPath": "static/images/tabs/channel.png",
+        "selectedIconPath": "static/images/tabs/channel-active.png"
+        },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/main",
+        "iconPath": "static/images/tabs/me.png",
+        "selectedIconPath": "static/images/tabs/me-active.png"
+      }
+    ],
+    "items": [
+      {
+        "name": "首页",
+        "pagePath": "pages/index/main",
+        "icon": "static/images/tabs/home.png",
+        "activeIcon": "static/images/tabs/home-active.png"
+      },
+      {
+        "text": "好物",
+        "pagePath": "pages/good/main",
+        "icon": "static/images/tabs/good.png",
+        "activeIcon": "static/images/tabs/good-active.png"
+      },
+      {
+        "text": ".",
+        "pagePath": "pages/camera/main",
+        "icon": "static/images/tabs/camera.png",
+        "activeIcon": "static/images/tabs/camera.png"
+      },
+      {
+        "text": "频道",
+        "pagePath": "pages/channel/main",
+        "icon": "http://m.qpic.cn/psb?/V11caANH1Aol76/7CdElQ69rpztmIGHKbgn.hdq*Zl0zhc1gMPQ1c9TfOA!/b/dDQBAAAAAAAA&bo=yADIAAAAAAADFzI!&rf=viewer_4",
+        "activeIcon": "shttp://m.qpic.cn/psb?/V11caANH1Aol76/BJE.bx8SaY99Au6CtSwwQlr.rH0mJY6I0N87BE89EX4!/b/dL4AAAAAAAAA&bo=yADIAAAAAAADFzI!&rf=viewer_4"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/main",
+        "icon": "static/images/tabs/me.png",
+        "activeIcon": "static/images/tabs/me-active.png"
+      }
+    ],
+    "position": "bottom"
+  }
+}
